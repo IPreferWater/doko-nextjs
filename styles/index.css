@@ -1,0 +1,26 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@layer utilities {
+  .blur {
+    filter: blur(25px);
+  }
+}
+
+body {
+  @apply bg-white ;
+}
+
+h1  {
+  @apply text-4xl;
+}
+
+h2 {
+  @apply text-2xl mb-6;
+}
+p {
+  @apply mb-6
+}
